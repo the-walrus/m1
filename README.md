@@ -3,15 +3,15 @@ Heart Attack Risk Prediction
 A small FastAPI web application that accepts a CSV with patient data, runs a trained pipeline, and outputs a list of IDs of people with high heart-attack risk.
 Project structure
 
-m1/
-├── app.py              # FastAPI application
-├── model.py            # HeartRiskModel class: load pipeline + feature engineering + predict()
-├── test.py             # Simple script to check /health and send a test CSV
-├── best_model.pkl      # Serialized GridSearchCV.best_estimator_
-├── templates/          # HTML templates
-│   ├── start_form.html # CSV upload form
-│   └── res_form.html   # Display list of high-risk IDs
-└── tmp/                # Temp folder for uploaded CSV files
+m1/<br/>
+├── app.py              # FastAPI application <br/>
+├── model.py            # HeartRiskModel class: load pipeline + feature engineering + predict()<br/>
+├── test.py             # Simple script to check /health and send a test CSV<br/>
+├── best_model.pkl      # Serialized GridSearchCV.best_estimator_<br/>
+├── templates/          # HTML templates<br/>
+│   ├── start_form.html # CSV upload form<br/>
+│   └── res_form.html   # Display list of high-risk IDs<br/>
+└── tmp/                # Temp folder for uploaded CSV files<br/>
 
 Installation & run
 
